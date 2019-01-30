@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden {
+	display: none;
+}
+
+body {
+	background-color: #431F09;
+	font-size: 17px;
+	color: #000;
+	font-family: de-walpergens-pica, sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: cheap-pine, sans-serif;
+	font-size: 35px;
+	line-height: 39px;
+	color: #072D40;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 748px;
+	height: 100%;
+	background-color: #AE9C88;
+	padding-left: 26px;
+	padding-right: 26px;
+	margin: 0 auto;
+}
+
+.headerImage {
+	background-image: url(../images/scenic_bg_img.jpg);
+	width: 748px;
+	height: 49px;
+	padding-top: 49px;
+	margin-bottom: 20px;
+}
+
+.headerTitle {
+	font-family: teeshirt, sans-serif;
+	color: #431F09;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.TRAAfounding {
+	font-family: de-walpergens-pica-sc, sans-serif;
+	color: #431F09;
+	font-size: 16px;
+	line-height: 20px;
+	background-color: #FFF;
+	border: 1px solid #707070;
+	padding: 6px 10px 6px 10px;
+	width: 726px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.aboutTRAA {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.funFact {
+	background-color: #FEE332;
+	border: 1px solid #707070;
+	color: #072D40;
+	line-height: 22px;
+	font-size: 17px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	width: 259px;
+	height: 140px;
+	padding: 17px;
+	text-align: center;
+}
+
+.accentPicture {
+	width: 293px;
+	height: 156px;
+}
+
+.aboutTRAAInfo {
+	width: 435px;
+	height: 315px;
+	background-color: #FFF;
+	border: 1px solid #707070;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 17px;
+}
+
+.Pods {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.Pod {
+	padding: 10px 10px 0px 10px;
+	font-size: 12px;
+	background-color: #FFF;
+	width: 86px;
+	height: 177px;
+}
+
+.HandsOn {
+	background-color: #FFF;
+	border: 1px solid #707070;
+	padding: 10px;
+	width: 726px;
+	margin-bottom: 20px;
+}
+
+.rainbowTrout {
+	display: flex;
+	flex-direction: row;
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 40px;
+	justify-content: space-between;
+}
+
+.rainbowTrout li {
+	width: 220px;
+}
